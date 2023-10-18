@@ -1,0 +1,98 @@
+.sidebar {
+    flex: 3;
+    height: fit-content;
+    margin: 20px;
+    padding-bottom: 30px;
+    background-color: #fdfbfb;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Estilos para pantallas más pequeñas (por ejemplo, dispositivos móviles) */
+  @media (max-width: 768px) {
+    .sidebar {
+      margin: 10px; /* Reducir el margen en pantallas más pequeñas */
+    }
+  
+    .sidebarTitle {
+      font-size: 10px; /* Reducir el tamaño de fuente en pantallas más pequeñas */
+    }
+  
+    .sidebarItem > img {
+      width: 200px; /* Reducir el ancho de la imagen en pantallas más pequeñas */
+      height: 200px; /* Reducir la altura de la imagen en pantallas más pequeñas */
+    }
+  
+    .sidebarList {
+      margin-bottom: 20px; /* Reducir el margen inferior de la lista en pantallas más pequeñas */
+    }
+  
+    .sidebarListItem {
+      width: 100%; /* Hacer que los elementos de la lista ocupen todo el ancho en pantallas más pequeñas */
+    }
+  }
+  
+  .sidebarItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .sidebarTitle {
+    margin: 10px;
+    padding: 5px;
+    width: 80%;
+    border-top: solid 1px #a7a4a4;
+    border-bottom: solid 1px #a7a4a4;
+    text-align: center;
+    font-family: "Varela Round", sans-serif;
+    font-size: 12px;
+    line-height: 19px;
+    color: #222222;
+    font-weight: 600;
+  }
+  
+  .sidebarItem > img {
+    margin-top: 15px;
+    width: 250px;
+    height: 250px;
+  }
+  
+  .sidebarItem > p {
+    padding: 30px;
+  }
+  
+  .sidebarList {
+    list-style-type: none;
+    margin-bottom: 30px;
+  }
+  
+  .sidebarListItem {
+    display: inline-block;
+    width: 50%;
+    margin-top: 15px;
+    cursor: pointer;
+  }
+  
+  .sidebarSocial {
+    margin-top: 15px;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .sidebarIcon {
+    font-size: 16px;
+    margin-left: 10px;
+  }
+
+  /* Estilos para la imagen */
+.imgGrande {
+  width: 500px; /* Ajusta el ancho deseado */
+  height: auto; /* Permite que la altura se ajuste automáticamente */
+}
+
+  

@@ -1,0 +1,21 @@
+.posts{
+    flex: 9;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+.posts {
+    flex: 9;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+  }
+  
+  /* Estilos para pantallas más pequeñas (por ejemplo, dispositivos móviles) */
+  @media (max-width: 768px) {
+    .posts {
+      margin: 10px; /* Reducir el margen en pantallas más pequeñas */
+    }
+  }
+  

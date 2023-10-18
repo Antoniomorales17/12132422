@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import "./TopBar.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import img from "../../img/yo.png"
 
 
 export default function Topbar() {
@@ -50,7 +51,7 @@ export default function Topbar() {
           <Link className="link" to="/settings">
             <img
               className="topImg"
-              src="https://images.pexels.com/photos/1858175/pexels-photo-1858175.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+              src= {img}
               alt=""
             />
           </Link>

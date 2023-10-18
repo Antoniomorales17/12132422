@@ -1,3 +1,6 @@
+import React from 'react';
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 import Topbar from "./components/TopBar/TopBar";
 import Home from "./pages/Home/Home";
 import Login from "./pages/Login/Login";
@@ -11,6 +14,7 @@ function App() {
   const currentUser = true;
   return (
     <Router>
+      <ToastContainer autoClose={3000} /> {/* Agrega ToastContainer aquí */}
       <Topbar />
       <Routes>
         <Route path="/" element={<Home />} />

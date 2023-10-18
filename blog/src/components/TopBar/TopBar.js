@@ -36,11 +36,11 @@ export default function Topbar() {
               HOME
             </Link>
           </li>
-          <li className="topListItem">ABOUT</li>
-          <li className="topListItem">CONTACT</li>
+          <li className="topListItem">SOBRE MI</li>
+          <li className="topListItem">CONTACTO</li>
           <li className="topListItem">
             <Link className="link" to="/write">
-              WRITE
+              PUBLICAR
             </Link>
           </li>
           {user && <li className="topListItem">LOGOUT</li>}
@@ -59,7 +59,7 @@ export default function Topbar() {
           <ul className="topList">
             <li className="topListItem">
               <Link className="link" to="/login">
-                LOGIN
+                POSTS
               </Link>
             </li>
             <li className="topListItem">

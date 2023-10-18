@@ -30,7 +30,7 @@ const Contact = () => {
   return (
     <div id="contact">
       <h1 className="contactPageTitle">¿Tienes una idea?</h1>
-      <span className="contactDesc">¡Cuéntamela!</span>
+      {/* <span className="contactDesc">¡Cuéntamela!</span> */}
       <form className="contactForm" ref={form} onSubmit={sendEmail}>
         <input type="text" className="name" placeholder="Tu nombre" name="your_name" />
         <input type="email" className="email" placeholder="Tu email" name="your_email" />
@@ -38,14 +38,7 @@ const Contact = () => {
         <button type="submit" value="Send" className="submitBtn">
           Enviar
         </button>
-        <div className="links">
-          <a href="https://www.linkedin.com/in/antonio-morales-gim%C3%A9nez" target="_blank" rel="noopener noreferrer">
-            <img src={linkedin} alt="" className="link" />
-          </a>
-          <a href="https://github.com/Antoniomorales17" target="_blank" rel="noopener noreferrer">
-            <img src={github} alt="HTML" className="link" />
-          </a>
-        </div>
+       
       </form>
     </div>
   );

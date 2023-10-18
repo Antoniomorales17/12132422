@@ -4,6 +4,7 @@ import Header from "../../components/Header/Header";
 import Sidebar from "../../components/Sidebar/Sidebar";
 import Posts from "../../components/Posts/Posts";
 import Footer from "../../components/Footer/Footer";
+import Contact from "../../components/Contact/Contact";
 
 
 const Home = () => {
@@ -13,6 +14,7 @@ const Home = () => {
         <div className="home">
             <Posts />
             <Sidebar />
+            <Contact />
             <Footer />
             
             

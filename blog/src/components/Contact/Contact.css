@@ -14,9 +14,13 @@
   .contactDesc {
     font-size: 20px;
     color: #666;
+    padding: 10px;
+    border: 1px solid #ccc;
+    
   }
   
   .contactForm {
+    
     max-width: 600px;
     margin: 0 auto;
     padding: 20px;
@@ -39,7 +43,7 @@
   .submitBtn {
     width: 100%;
     padding: 15px;
-    background-color: #007bff;
+    background-color: #03203f;
     color: #fff;
     border: none;
     border-radius: 5px;

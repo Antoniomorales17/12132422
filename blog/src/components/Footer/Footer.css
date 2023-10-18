@@ -1,9 +1,10 @@
 /* Footer.css */
 
+
 .footer {
-    background-color: #333;
+    background-color: #39a8ca;
     color: #fff;
-    padding: 20px;
+    padding: 10px; /* Reducir el padding a 10px o el valor deseado */
     text-align: center;
   }
   

@@ -2,7 +2,7 @@
 
 ¡Bienvenido a mi blog personal de programador junior! En este espacio, compartiré mis experiencias, conocimientos y aprendizajes mientras navego por el emocionante mundo de la programación. Espero que encuentres contenido interesante y útil.
 
-![blog](https://i.imgur.com/OKkpXXw.png)
+![blog](https://i.imgur.com/uLiYP4x.png)
 
 ## Contenido
 

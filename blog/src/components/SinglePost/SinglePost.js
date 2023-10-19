@@ -31,7 +31,7 @@ export default function SinglePost() {
         <p className="singlePostDesc">
         ¡Hola a todos!
 
-Hoy marco el inicio de un emocionante viaje hacia el mundo de la programación como un desarrollador junior. Mi nombre es [Tu Nombre] y estoy emocionado por compartir mi experiencia y aprendizaje a medida que me aventuro en este apasionante campo.
+Hoy marco el inicio de un emocionante viaje hacia el mundo de la programación como un desarrollador junior. Mi nombre es Antonio y estoy emocionado por compartir mi experiencia y aprendizaje a medida que me aventuro en este apasionante campo.
 
 La programación siempre me ha intrigado, y a medida que exploraba diferentes lenguajes y tecnologías, me di cuenta de que tenía un apetito insaciable por resolver problemas y crear soluciones. Así que, finalmente, decidí dar el salto y sumergirme en el maravilloso mundo del desarrollo de software.
 

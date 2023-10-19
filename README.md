@@ -19,6 +19,7 @@ Soy Antonio Morales, un apasionado programador junior en busca de conocimientos 
 ## Publicaciones 🧾
 
 Puedes explorar todas mis publicaciones que iré redactando con el paso del tiempo. Cubro una variedad de temas, desde tutoriales y guías hasta reflexiones personales sobre el mundo de la programación.
+
 ![blog1](https://i.imgur.com/RfcWwpk.png)
 
 ## Tecnologías Utilizadas 🚀

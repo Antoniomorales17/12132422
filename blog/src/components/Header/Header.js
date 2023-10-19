@@ -1,5 +1,6 @@
 import "./Header.css";
 import img from "../../img/junior2.png"
+import img1 from "../../img/junior.png"
 
 export default function Header() {
   return (
@@ -7,6 +8,7 @@ export default function Header() {
       <div className="headerTitles">
         {/* <span className="headerTitleLg">La vida de un desarrollador</span> */}
       </div>
+    
       <img
         className="headerImg"
         src={img}

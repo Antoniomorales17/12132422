@@ -2,9 +2,10 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./TopBar.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
-import img from "../../img/yo.png"
+import { faGithub, faLinkedin, faHome, faPenSquare } from "@fortawesome/free-solid-svg-icons";
+import { faGithub as fabGithub, faLinkedin as fabLinkedin } from "@fortawesome/free-brands-svg-icons"; // Agrega los íconos de redes sociales
 
+import img from "../../img/yo.png";
 
 export default function Topbar() {
   const user = true; // Puedes ajustar esto según tu lógica de autenticación
@@ -33,17 +34,14 @@ export default function Topbar() {
         <ul className="topList">
           <li className="topListItem">
             <Link className="link" to="/">
-              HOME
+              <FontAwesomeIcon icon={faHome} className="icon" /> HOME
             </Link>
           </li>
-          <li className="topListItem">SOBRE MI</li>
-          <li className="topListItem">CONTACTO</li>
           <li className="topListItem">
             <Link className="link" to="/write">
-              PUBLICAR
+              <FontAwesomeIcon icon={faPenSquare} className="icon" /> PUBLICAR
             </Link>
           </li>
-          {user && <li className="topListItem">LOGOUT</li>}
         </ul>
       </div>
       <div className="topRight">
@@ -51,7 +49,7 @@ export default function Topbar() {
           <Link className="link" to="/settings">
             <img
               className="topImg"
-              src= {img}
+              src={img}
               alt=""
             />
           </Link>
@@ -62,11 +60,11 @@ export default function Topbar() {
                 POSTS
               </Link>
             </li>
-            <li className="topListItem">
+            {/* <li className="topListItem">
               <Link className="link" to="/register">
                 REGISTER
               </Link>
-            </li>
+            </li> */}
           </ul>
         )}
         <i className="topSearchIcon fas fa-search"></i>

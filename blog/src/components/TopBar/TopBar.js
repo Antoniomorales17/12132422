@@ -2,10 +2,9 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./TopBar.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faGithub, faLinkedin, faHome, faPenSquare } from "@fortawesome/free-solid-svg-icons";
-import { faGithub as fabGithub, faLinkedin as fabLinkedin } from "@fortawesome/free-brands-svg-icons"; // Agrega los íconos de redes sociales
+import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import img from "../../img/yo.png"
 
-import img from "../../img/yo.png";
 
 export default function Topbar() {
   const user = true; // Puedes ajustar esto según tu lógica de autenticación
@@ -34,14 +33,15 @@ export default function Topbar() {
         <ul className="topList">
           <li className="topListItem">
             <Link className="link" to="/">
-              <FontAwesomeIcon icon={faHome} className="icon" /> HOME
+              HOME
             </Link>
           </li>
           <li className="topListItem">
             <Link className="link" to="/write">
-              <FontAwesomeIcon icon={faPenSquare} className="icon" /> PUBLICAR
+              PUBLICAR
             </Link>
           </li>
+          {user && <li className="topListItem">LOGOUT</li>}
         </ul>
       </div>
       <div className="topRight">
@@ -49,7 +49,7 @@ export default function Topbar() {
           <Link className="link" to="/settings">
             <img
               className="topImg"
-              src={img}
+              src= {img}
               alt=""
             />
           </Link>
